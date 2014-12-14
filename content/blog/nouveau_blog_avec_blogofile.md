@@ -1,8 +1,10 @@
 ---
-categories: coding, python
-tags: blogofile, web
-date: 2011/07/15 02:00:00
-title: Nouveau blog avec Blogofile
+title:       "Nouveau blog avec Blogofile"
+date:        "2011-07-15T02:00:00+02:00"
+categories:  [ "coding", "python" ]
+tags:        [ "coding", "python" ]
+aliases:     [ "/blog/2011/07/15/nouveau-blog-avec-blogofile/" ]
+slug:        "nouveau-blog-avec-blogofile"
 ---
 
 Cela faisait quelques temps que cela me titillait : écrire des billets avec
@@ -86,7 +88,7 @@ Pourquoi Blogofile ?
 * Parce qu'il est en Python, et cela me permet de coder dans mon langage préféré
   et d'apprendre des moteurs de templates que je ne connaissais pas (*Mako* et
   bientôt *jinja2*).
- 
+
 * Parce qu'il est vraiment simple. Pas fioritures, il va à l'essentiel. Ecrire
   des controlleurs ne semblent vraiment pas dur et les quelques fonctionnalités
   dont j'avais besoin (Disqus, flux RSS et blog) sont là. Un site de base tiens
@@ -97,7 +99,7 @@ Pourquoi Blogofile ?
   transformations multiples.
 
 * Parce que je sature un peu de Ruby. Utilisant pas mal d'outils codés en
-  Ruby ces derniers temps, je commençais en avoir ras la casquette des 
+  Ruby ces derniers temps, je commençais en avoir ras la casquette des
   erreurs d'installation ou des messages d'erreur complètement abscons. Mais
   des outils comme Jekyll ou Toto semblent pas mal du tout, j'ai fais joué
   ma fibre Pythonienne.

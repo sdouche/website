@@ -1,7 +1,11 @@
 ---
-categories: lifehacking
-date: 2010/01/01 05:45:00
-title: Un retour sur Pomodoro
+title:       "Un retour sur Pomodoro"
+description: "Un retour sur Pomodoro"
+date:        "2010-01-01T05:45:00+02:00"
+categories:  [ "lifehacking" ]
+tags:        [ "lifehacking" ]
+aliases:     [ "/blog/2010/01/01/un-retour-sur-pomodoro/" ]
+slug:        "un-retour-sur-pomodoro"
 ---
 
 Cela fait maintenant plusieurs semaines que j'utilise la technique [Pomodoro](http://www.pomodorotechnique.com/), qui consiste (en gros) à découper le temps par tranche de 30 minutes : 25 minutes de travail puis 5 minutes de repos. D'abord trés sceptique, je suis devenu un partisan convaincu.

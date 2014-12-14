@@ -1,8 +1,10 @@
 ---
-categories: agile, rumination
-date: 2011/08/08 03:00:00
-title: L'Agile est mort
-slug: l-agile-est-mort
+title:       "L'Agile est mort"
+date:        "2011-08-08T03:00:00+02:00"
+categories:  [ "rumination" ]
+tags:        [ "agile", "rumination" ]
+aliases:     [ "/blog/2011/08/08/l-agile-est-mort/" ]
+slug:        "l-agile-est-mort"
 ---
 
 Sous ce titre qui peut paraitre provocateur se trouve un constat plutôt amère,
@@ -37,7 +39,7 @@ gens :
 
 Si je diffuse un logiciel avec une licence Libre, par exemple BSD, mais que
 je ne propose pas de bugtracker, de liste de diffusion, ou que je refuse toute
-contribution extérieure, ou que j'obfusque mon code, ou que j'envoie sur 
+contribution extérieure, ou que j'obfusque mon code, ou que j'envoie sur
 les roses les demandes d'utilisateurs, je fais du Logiciel Libre (ma licence
 le prouve) sur papier. Dans les faits, ce n'est qu'un ersatz, je ne respecte
 pas la philosophie du Logiciel Libre. Il en est de même avec l'agilité.
@@ -48,7 +50,7 @@ faciles à juger.
 La recherche de la valeur
 ------------------------
 
-Souvent maladroitement appelé *un logiciel qui marche*, l'objectif est de 
+Souvent maladroitement appelé *un logiciel qui marche*, l'objectif est de
 donner aux utilisateurs un produit fonctionnel, utilisable et pratique.
 Et sauf à produire un logiciel maintes et maintes fois demandée, c'est
 une découverte, autant pour le client que pour l'équipe de développement.
@@ -94,7 +96,7 @@ Au contraire, l'agilité se veut une quête de sens :
   non technique ?
 * Voir même, ce logiciel est il utile ?
 
-C'est un effort collectif, allant du développeur jusqu'au client pour 
+C'est un effort collectif, allant du développeur jusqu'au client pour
 comprendre, analyser et développer de la valeur métier  à travers un
 logiciel. Sans cela, vous faites de la cascade : on se met d'accord sur
 une limite fonctionnelle, numéraire et temporelle et zou !
@@ -201,7 +203,7 @@ développements en lots plus petits, avec vérification régulière. Le rapport
 avec l'Agile tel que je le décris au début du billet ? Aucun ! Faire
 confiance aux gens ? Soyons sérieux, ils pratiquent régulièrement
 le *command & control*, technique qui consiste à faire travailler les
-gens comme des marionnettes, et les accuser de faire du mauvais 
+gens comme des marionnettes, et les accuser de faire du mauvais
 boulot en cas de pépin. Voir le développement comme une discipline ? Vous
 parlez de ces directions des achats qui écrasent le prix journalier des
 développeurs vers le bas ? Quand à la recherche de la valeur, cela
@@ -284,7 +286,7 @@ mouvement Agile. L'objectif de normaliser termes et principes, de les figer,
 est avant tout pour mieux le vendre. Il est curieux de voir **17 consultants
 sur les 17 signataires du manifeste** : tous vendent des livres, tous vendent
 des formations. L'Agile Alliance fut créée dans la foulée pour en faire la
-promotion. 
+promotion.
 
 Un modèle sclérosé
 ------------------
@@ -308,7 +310,7 @@ si le modèle Agile s'ouvre sur l'extérieur, cela reste limité : il suffit
 de voir le rôle du *PO* (Product Owner), proxy du reste de la société, où
 se trouvent des *stakeholders*. Ou est le marketing commercial ? Technique ?
 La recherche de nouveaux marchés ? Le déploiement ? L'opérationnel ?
-L'expérience utilisateur ? Le design ? En gros, où est tout le reste ?! 
+L'expérience utilisateur ? Le design ? En gros, où est tout le reste ?!
 Le vide, les têtes pensantes du modèle Agile sont encore à rabacher TDD et
 planning poker, la belle affaire !
 
@@ -333,7 +335,7 @@ pas minimiser l'impact de l'agilité sur notre métier, bien au contraire ! Je
 vous encourage à lire livres et blogs et à prendre ce dont vous avez besoin.
 
 Il faut seulement avoir une vision systémique du mouvement, comprendre d'où
-il vient, pourquoi il a été créé et pourquoi certaines personnes vendent le 
+il vient, pourquoi il a été créé et pourquoi certaines personnes vendent le
 modèle Agile. Cela permet par exemple de comprendre le *Manifeste Agile*
 au lieu de répéter bêtement son contenu qui est loin d'être optimal en 2011.
 Cela permet aussi de comprendre que ce modèle créé en 2001 (Scrum en 96, XP
@@ -347,7 +349,7 @@ ont participé activement à ce dévoiement (qui a dit certification ?).
 Je pourrais résumer ma pensée ainsi : **L'agilité est une avancée importante,
 mais le modèle Agile est inutile**. C'est peut être le destin de tout
 modèle. En tout cas il est temps que chaque organisation invente, à l'instar de
-Toyota, son propre modèle de production. Un modèle **adapté à son business, 
+Toyota, son propre modèle de production. Un modèle **adapté à son business,
 ses clients, ses collaborateurs**. Un modèle qui **prend en compte toutes les
 nouvelles avancées** que l'on peut trouver dans les mouvements tels que Devops,
 Lean, Lean startup ou Kanban. Un modèle **qui évolue** sans cesse avec la

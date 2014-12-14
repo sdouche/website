@@ -1,8 +1,10 @@
 ---
-categories: coding
-date: 2011/11/06 18:51:00
-title: Les 5 niveaux de conscience d'un développeur
-slug: les-5-niveaux-de-conscience-d-un-developpeur
+title:       "Les 5 niveaux de conscience d'un développeur"
+date:        "2011-11-06T18:51:00+02:00"
+categories:  [ "coding" ]
+tags:        [ "coding" ]
+aliases:     [ "/blog/2011/11/06/les-5-niveaux-de-conscience-d-un-developpeur/" ]
+slug:        "les-5-niveaux-de-conscience-d-un-developpeur"
 ---
 
 On peut juger un développeur sur la compréhension qu'il possède de son métier :
@@ -24,7 +26,7 @@ souvent ce que lui demande son chef de projet...
 Niveau 1 : livrer du code
 -------------------------
 
-Intéressé par la qualité du code, il pense qu'il doit **livrer du code 
+Intéressé par la qualité du code, il pense qu'il doit **livrer du code
 fonctionnel**. Il s'intéresse aux *Design Patterns*, lit des livres sur le
 développement logiciel, refactore de temps en temps son code pour le rendre
 *plus beau* et s'intéresse aux tests.

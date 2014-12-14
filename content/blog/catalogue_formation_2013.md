@@ -1,7 +1,10 @@
 ---
-categories: formation
-date: 2012/12/17 12:44:00
-title: Catalogue formation 2013
+title:       "Catalogue formation 2013"
+date:        "2012-12-17T12:44:00+02:00"
+categories:  [ "formation" ]
+tags:        [ "formation" ]
+slug:        "catalogue-formation-2013"
+aliases:     [ "/blog/2012/12/17/catalogue-formation-2013/" ]
 ---
 
 En septembre 2010, j'ai lancé #gitfr pour expliquer les DVCS et Git en
@@ -42,7 +45,7 @@ si c'est ce format que vous recherchez. De même, si le sujet vous intéresse
 mais qu'il manque un contenu particulier, n'hésitez pas à en faire la
 demande.
 
-**Note 3** : j'ai mis à la fin des idées de sujet. Si vous avez d'autres, 
+**Note 3** : j'ai mis à la fin des idées de sujet. Si vous avez d'autres,
 postez un commentaire. Si j'ai les compétences nécessaires, je tenterai
 d'en faire quelque chose.
 
@@ -133,7 +136,7 @@ Objectif :
 - Comprendre l'architecture OpenVSwtich
 - Déployer un switch virtuel
 
-Contenu : 
+Contenu :
 
 - Introduction à la virtualisation réseau
 - OpenFlow et contrôle automatisé
@@ -191,7 +194,7 @@ Objectif :
 - Apprendre les bases de Python
 - Ecrire de petits programmes (système, graphique, réseau)
 
-Contenu : 
+Contenu :
 
 - Installation de Python
 - Premiers pas (variable, affectation, opérateur, expression)
@@ -299,7 +302,7 @@ Objectif :
 - Coder quelques scripts système
 - Coder un service réseau concurrent
 
-Contenu : 
+Contenu :
 
 - Installation de Go
 - Structuration d'un projet
@@ -352,7 +355,7 @@ Objectif :
 
 - Coder une page dynamique (one page website)
 
-Contenu : 
+Contenu :
 
 - Installation de Dart
 - 1er programme en ligne de commande
@@ -482,7 +485,7 @@ croissante de me battre avec mon outil de travail. Pire, il s'adaptait très mal
 gestion de source décentralisé (Hg puis Git) début 2008. La différence était
 flagrante, je me sentais comme libéré d'un poids qui me ralentissait, et la
 production de l'équipe s'est fortement améliorée (quantitativement et
-qualitativement). 
+qualitativement).
 
 Cette présentation vous donnera la compréhension nécessaire pour aborder
 sereinement l'utilisation de Git (et aux DVCS en général) : La première partie
@@ -511,9 +514,9 @@ Gérer le développment logiciel avec le Kanban
 Agiliste forcené depuis de nombreuses années mais non satisfait par
 les outils de suivi de projet que j'employé jusqu'alors, j'ai décidé
 de passer voici 5 ans, au développement par flux, représenté par l'outil
-Kanban. 
+Kanban.
 
-Objectif : 
+Objectif :
 
 - Comprendre le développement par flux
 - Comprendre l'importance du *lead time*
@@ -550,7 +553,7 @@ dans le monde fascinant du management.
 
 
 Objectif :
-- 
+-
 
 Contenu :
 - Le management, du 17eme siècle à nos jours
