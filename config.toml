@@ -2,6 +2,7 @@ baseurl = "http://douche.name"
 languageCode = "en-us"
 title = "Ruminations From a Tortured Mind"
 canonifyurls = true
+disqusShortname = "sdouche"
 
 [params]
   author = "Sébastien Douche"
