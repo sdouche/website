@@ -11,7 +11,7 @@ J'ai lu voici quelques mois un billet qui s'intitule [The Rise of Worse is Bette
 
 Dans ce billet, Gabriel expose deux visions du développement logiciel qu'il appelle la conception «The Right Thing» (approche MIT) et la conception «Worse is Better» (approche Stanford). Stanford et MIT se trouvant à San Francisco et l'autre à Boston, cela donne un arrière gout de *East Coast* vs *West Coast*.
 
-Il définit chaque conception en quatre points : simplicité (simplicity), exactitude (correctness), consistance (consistency) et complétude (completeness).
+Il définit chaque conception en quatre points : simplicité (simplicity), exactitude (correctness), cohérence (consistency) et complétude (completeness).
 
 Worse is Better
 ---------------
@@ -22,16 +22,15 @@ Voici les quatre points :
 
 - La conception doit être juste dans tous ses aspects observables, mais il est **préférable d'être simple que juste**.
 
-- La conception doit être consistante, mais on peut **sacrifier dans certains cas la consistance pour la simplicité**. De plus, il est préférable de supprimer des bouts de conception qui introduise de la complexité ou de l'inconsistance.
+- La conception doit être cohérente, mais on peut **sacrifier dans certains cas la cohérence pour la simplicité**. De plus, il est préférable de supprimer des bouts de conception qui introduise de la complexité ou de l'incohérence.
 
-- La conception doit couvrir autant de situations que possible, mais on peut **sacrifier la complétude en faveur des autres caractéristiques** comme l’exactitude ou la consistance, surtout
-  si cela joue sur la complexité.
+- La conception doit couvrir autant de situations que possible, mais on peut **sacrifier la complétude en faveur des autres caractéristiques** comme l’exactitude ou la cohérence, surtout si cela joue sur la complexité.
 
 En schématisant, nous avons :
 
-simplicité (implémentation) ❭ simplicité (interface) ❭ exactitude ❭ consistance ❭ complétude
+simplicité (implémentation) ❭ simplicité (interface) ❭ exactitude ❭ cohérence ❭ complétude
 
-Nous pouvons voir que l'approche de Stanford se focalise avant tout sur la simplicité d'implémentation. La simplicité étant considérée comme l'objectif plus important, il peut sacrifier de l'exactitude. De même, il peut sacrifier de la consistance si cela augmente la complexité. Et de la complétude si cela améliore les points précédents.
+Nous pouvons voir que l'approche de Stanford se focalise avant tout sur la simplicité d'implémentation. La simplicité étant considérée comme l'objectif plus important, il peut sacrifier de l'exactitude. De même, il peut sacrifier de la cohérence si cela augmente la complexité. Et de la complétude si cela améliore les points précédents.
 
 Gabriel décrit Unix et le langage C comme représentatif de cette approche.
 
@@ -44,15 +43,15 @@ Voici les quatre points :
 
 - La conception doit être juste dans tous ses aspects observables. **L'inexactitude n'est pas permise**.
 
-- La conception doit être consistante. On peut **sacrifier la simplicité et la complétude pour avoir la consistance**.
+- La conception doit être cohérente. On peut **sacrifier la simplicité et la complétude pour avoir de la cohérence**.
 
 - La conception doit couvrir le plus de situations utiles. Il est **préférable d'être complet que simple**.
 
 En schématisant, nous avons :
 
-exactitude ❭ consistance ❭ complétude ❭ simplicité (interface) ❭ simplicité (implémentation)
+exactitude ❭ cohérence ❭ complétude ❭ simplicité (interface) ❭ simplicité (implémentation)
 
-Au contraire de la première approche, l'approche MIT se focalise sur l'exactitude. La consistance et la complétude sont plus importantes que la simplicité. Elle force le concepteur à un plus gros travail (pour avoir un code complet, exact et consistant).
+Au contraire de la première approche, l'approche MIT se focalise sur l'exactitude. La cohérence et la complétude sont plus importantes que la simplicité. Elle force le concepteur à un plus gros travail (pour avoir un code complet, exact et cohérent).
 
 Son interprétation
 ------------------
@@ -67,7 +66,7 @@ Gabriel explique que l'approche qui prône la simplicité produit de meilleur r�
 
 > The MIT guy then muttered that sometimes it takes a tough man to make a tender chicken, but the New Jersey guy didn't understand (I'm not sure I do either).
 
-Il caricature l'approche Stanford en l'a nommant «Worse is Better» et non «Less is More» pour bien montrer que c'est contre intuitif à ses yeux : On fait simple même si le résultat final n'est pas aussi complet et consistant que l'on pourrait espérer. Il dit d'ailleurs « The good news is that in 1995 we will have a good operating system and programming language; the bad news is that they will be Unix and C++.»
+Il caricature l'approche Stanford en l'a nommant «Worse is Better» et non «Less is More» pour bien montrer que c'est contre intuitif à ses yeux : On fait simple même si le résultat final n'est pas aussi complet et cohérent que l'on pourrait espérer. Il dit d'ailleurs « The good news is that in 1995 we will have a good operating system and programming language; the bad news is that they will be Unix and C++.»
 
 Mon interprétation
 ------------------
@@ -97,7 +96,7 @@ Et pour la petite histoire, Internet est aussi issu de la cote ouest, et ce n'es
 Et alors ?
 ----------
 
-N'est il pas dérisoire de tenter de définir précisément un cadre au développement logiciel, domaine tellement jeune (40 ans d’existence pour la micro-informatique, 65 ans pour l'informatique) et surtout immature ? Est ce que les partisans de la conception *The Right Thing* n'ont ils pas raison après tout, en stigmatisant la médiocrité des logiciels actuels ? N'est ce pas ma médiocrité intellectuelle qui me pousse dans les bras du *Worse is Better* car je suis incapable de faire mieux ? Mais alors, pourquoi les défenseurs des langages comme Scala, D, Ocaml ou Haskell, qui se font «entendre» avec force sur la toile (généralement avec des commentaires assassins), ne livrent pas eux même de meilleurs logiciels : Où est le prochain système d'exploitation en OCaml ? Le futur Git en Haskell ? Pourquoi Google, qui a surement embauché un grande partie d'excellents développeurs dans la décennie passée préfère Java, Python et le C++ ? Et que le nouveau langage qui perce avec force est Go, symbole du *Worse is Better* ?
+N'est il pas dérisoire de tenter de définir précisément un cadre au développement logiciel, domaine tellement jeune (40 ans d’existence pour la micro-informatique, 65 ans pour l'informatique) et surtout immature ? Est ce que les partisans de la conception *The Right Thing* n'ont ils pas raison après tout, en stigmatisant la médiocrité des logiciels actuels ? N'est ce pas **ma** médiocrité intellectuelle qui me pousse dans les bras du *Worse is Better* car je suis incapable de faire mieux ? Mais alors, pourquoi les défenseurs des langages comme Scala, D, Ocaml ou Haskell, qui se font «entendre» avec force sur la toile (généralement avec des commentaires assassins), ne livrent pas eux même de meilleurs logiciels : Où est le prochain système d'exploitation en OCaml ? Le futur Git en Haskell ? Pourquoi Google, qui a surement embauché un grande partie d'excellents développeurs dans la décennie passée préfère Java, Python et le C++ ? Et que le nouveau langage qui perce avec force est Go, symbole du *Worse is Better* ?
 
  De plus, les études que j'ai pu lire ne sont pas plus concluants (d'ailleurs si vous en avez d'autres je suis preneur car je n'ai pas tout retrouvé) :
 
@@ -129,7 +128,7 @@ that even these modest effects might quite possibly be due to other, intangible 
 
 Ces études sont perfectibles à bien des égards mais se pourrait il que les arguments tant vantés par la communauté *The Right Thing* ne reposent en fait que sur des impressions, des envies ou des expériences passées ? Ne pourrait elle pas s'expliquer par une valorisation personnelle du type «j'utilise un langage avec plein de concepts compliqués ce qui me valorise ou m'amuse intellectuellent» ?
 
-Ma croyance est que la simplicité est la clé du développement logiciel, car les objectifs de compréhension, de relecture et de modification sont les plus importantes. Ce qui implique le moins de connaissances à acquérir. Et ce n'est il pas finalement dans la recherche à 360 degrés de la simplicité (dans les techniques, les outils et l'organisation) que l'on peut puiser les meilleurs résultats et non un langage *The Right Thing* ? Par exemple :
+Ma **croyance** est que la simplicité est la clé du développement logiciel, car les objectifs de compréhension, de relecture et de modification sont les plus importantes. Ce qui implique le moins de connaissances à acquérir. Et ce n'est il pas finalement dans la recherche à 360 degrés de la simplicité (dans les techniques, les outils et l'organisation) que l'on peut puiser les meilleurs résultats et non un langage *The Right Thing* ? Par exemple :
 
 - Un langage adapté aux besoins, possédant une petite spécification et qui ne demande pas de connaissances poussées en logique mathématique.
 - La conception pilotée par les tests (TDD) qui pousse à réduire la complexité cyclomatique.
@@ -145,4 +144,4 @@ Et que donc, la qualité passe avant tout par une **culture de la simplicité** 
 Un dernier mot sur Rust
 -----------------------
 
-Un dernier mot sur [Rust](http://www.rust-lang.org/), langage en court d'élaboration chez Mozilla. Je suis ce langage de près car il me semble être une tentative intéresasnte de rapprochement  de ces deux voies. Exact, complet, consistant mais tentant de ne pas trop sacrifier la simplicité. Réponse dans un an avec la 1.0...
+Un dernier mot sur [Rust](http://www.rust-lang.org/), langage en court d'élaboration chez Mozilla. Je suis ce langage de près car il me semble être une tentative intéresasnte de rapprochement  de ces deux voies. Exact, complet, cohérent mais tentant de ne pas trop sacrifier la simplicité. Réponse dans un an avec la 1.0...
